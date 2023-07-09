@@ -6,7 +6,7 @@ Malven Co. Javascript coding standards for Typescript projects using [ESLint](ht
 ## How to Use
 
 ```
-npm i -D eslint @malven/eslint-config @malven/eslint-config-typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin
+npm i -D eslint @malven/eslint-config @malven/eslint-config-typescript @typescript-eslint/parser @typescript-eslint/eslint-plugin typescript
 ```
 
 ### In your global or project-specific .eslintrc
