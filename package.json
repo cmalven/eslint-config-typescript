@@ -1,6 +1,6 @@
 {
   "name": "@malven/eslint-config-typescript",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Malven Co. Javascript coding standards for Typescript projects using ESLint",
   "main": "index.js",
   "scripts": {},
@@ -16,9 +16,12 @@
     "eslintconfig"
   ],
   "peerDependencies": {
-    "eslint": "^8.50.0",
     "@typescript-eslint/eslint-plugin": "^6.7.0",
     "@typescript-eslint/parser": "^6.7.0",
+    "eslint": "^8.50.0",
     "typescript": "^5.2.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^9.1.0"
   }
 }
